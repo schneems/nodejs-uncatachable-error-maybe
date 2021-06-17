@@ -4,12 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "postinstall": "cd node_modules/jsforce && npm install && npm run build:transpile",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "jsforce": "https://github.com/dzuelke/jsforce/tarball/0aefea0"
+    "jsforce": "https://github.com/dzuelke/jsforce/tarball/8178554"
   }
 }
