@@ -11,12 +11,4 @@ conn = new jsforce.Connection({
 });
 
 const response = conn.query("SELECT foo from bar");
-console.log(response);
-
-response.then(
-undefined,
-function foo(e) {
-  console.log("======================== lol")
-  console.log(e)
-})
-
+response.then(() => console.log("yay")).catch((err) => console.log("an error occurred that we caught:", err));
